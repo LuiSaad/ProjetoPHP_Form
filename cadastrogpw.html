@@ -7,7 +7,7 @@
 </head>
 <body>
 	<!--nome da pasta do arquivo.php -->
-
+	<h1>Formulário de gêneros de filmes</h1>
 	<form action="#" method="post">
 		
 		<fieldset>
@@ -22,18 +22,30 @@
 		<label>Nome:</label>
 		<input type="text" name="nome" required><br><br>
 		<label>Sexo:</label>
+		<br><br>
 		<input type="checkbox" name="sexo" required><label>Feminino</label><br><br>
 		<input type="checkbox" name="sexo" required><label>Masculino</label><br><br>
 		<label>Idade: </label>
 		<input type="text" name="idade" required><br><br>
 		Escolha seu gênero de filme favorito: <select name="gênero">
-			
-		</select>
+			<option value="comed">Comédia</option>
+			<option value="roman">Romance</option>
+			<option value="terr">Terror</option>
+			<option value="fic">Ficção</option>
+			<option value="fic">Musical</option>
+			<option value="fic">Aventura</option>
+			<option value="fic">Ação</option>
+			<option value="dra">Drama</option>
+			<option value="fan">Fantasia</option>
+			<option value="susp">Suspense</option>
+
+		</select> <br><br>
 		</fieldset>
+		<input type="submit" value="ENVIAR"> <input type="reset" value="LIMPAR">
+
 
 
 	</form>
-
 
 
 </body>
